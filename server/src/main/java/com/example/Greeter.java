@@ -17,6 +17,7 @@ public class Greeter {
    * @return string
      */
   public final String greet(final String someone) {
+    System.out.println("Test");
     return String.format("Hello, %s!", someone);
   }
 }
